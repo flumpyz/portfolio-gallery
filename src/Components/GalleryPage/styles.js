@@ -17,6 +17,14 @@ export const Nav = styled.nav`
   width: 564px;
   
   margin-top: 81px;
+  
+  @media(max-width: 1040px) {
+    display: none;
+  }
+`
+
+export const Select = styled.select`
+    
 `
 
 export const StyledNavLink = styled(NavLink)`

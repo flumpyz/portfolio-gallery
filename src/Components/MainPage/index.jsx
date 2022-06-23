@@ -1,5 +1,6 @@
 import React from 'react';
 import MainLayout from "../../UIComponents/MainLayout";
+import {useLocation} from "react-router";
 
 const Index = () => {
     return (

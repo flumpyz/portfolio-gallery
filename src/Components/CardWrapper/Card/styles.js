@@ -12,6 +12,8 @@ export const Card = styled.div`
   background: url("${props => props.img}");
 
   border-radius: 7px;
+  
+  cursor: pointer;
 `
 
 export const CardInfo = styled.div`

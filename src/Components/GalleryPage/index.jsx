@@ -1,7 +1,6 @@
 import React from 'react';
 import * as SC from './styles';
 import * as WC from '../../UIComponents/Wrapper/wrappers';
-import { NavLink } from "react-router-dom";
 import CardWrapper from "../CardWrapper";
 
 const Index = (props) => {
@@ -15,6 +14,15 @@ const Index = (props) => {
                         </SC.StyledNavLink>
                     ))}
                 </SC.Nav>
+                <SC.Select>
+                    {props.sections.map((section) => (
+                        <option>
+                            <SC.StyledNavLink to={`/#${section.name}`}>
+                                {section.name}
+                            </SC.StyledNavLink>
+                        </option>
+                    ))}
+                </SC.Select>
                 <CardWrapper />
 
             </WC.MainWrapper>
