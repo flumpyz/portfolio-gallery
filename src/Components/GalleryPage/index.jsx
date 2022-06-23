@@ -2,6 +2,7 @@ import React from 'react';
 import * as SC from './styles';
 import * as WC from '../../UIComponents/Wrapper/wrappers';
 import { NavLink } from "react-router-dom";
+import CardWrapper from "../CardWrapper";
 
 const Index = (props) => {
     return (
@@ -14,6 +15,7 @@ const Index = (props) => {
                         </SC.StyledNavLink>
                     ))}
                 </SC.Nav>
+                <CardWrapper />
             </WC.MainWrapper>
         </SC.GalleryPage>
     );
