@@ -5,5 +5,5 @@ export const MainWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   
-  width: 1170px;
+  max-width: 1170px;
 `

@@ -16,6 +16,7 @@ const Index = (props) => {
                     ))}
                 </SC.Nav>
                 <CardWrapper />
+
             </WC.MainWrapper>
         </SC.GalleryPage>
     );

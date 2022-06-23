@@ -1,32 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
+import * as SC from './styles';
 import Polygon from "../../Icons/Polygon";
-
-const Logo = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  width: 140px;
-  height: 44px;
-`
-
-const LogoText = styled.p`
-  font-family: "Segoe UI", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
-  
-  color: #FFFFFF;
-`
 
 const Index = () => {
     return (
-        <Logo>
+        <SC.Logo>
             <Polygon color={'#EF6D58'}/>
-            <LogoText>Agency</LogoText>
-        </Logo>
+            <SC.LogoText>Agency</SC.LogoText>
+        </SC.Logo>
     );
 };
 
